@@ -20,22 +20,22 @@ Guardhouse:Y|Barracks:Y|Hall of War:Y
 10% more Monster Pack Size:Y|20% more Monster Pack Size:Y|30% more Monster Pack Size:Y
 Workshop:Y|Engineering Department:Y|Factory:Y
 5% increased Quantity / 15% increased boss life (1):Y|10% increased Quantity / 25% increased boss life:Y|15% increased Quantity / 35% increased boss life:Y
-Sacrificial Chamber|Hall of Offerings|Apex of Ascension:Y
-Unique item-> Random Unique (2)|Unique item-> Random Unique (Chance of league-specific)|Unique item-> Random Unique with same base (Chance of league-specific):Y
-Shrine of Empowerment|Sanctum of Unity|Temple Nexus:Y
-10% increased monster attack/cast speed|15% increased monster attack/cast speed|Connected rooms +1:Y
+Sacrificial Chamber|Hall of Offerings|Apex of Ascension:G
+Unique item-> Random Unique (2)|Unique item-> Random Unique (Chance of league-specific)|Unique item-> Random Unique with same base (Chance of league-specific):G
+Shrine of Empowerment|Sanctum of Unity|Temple Nexus:G
+10% increased monster attack/cast speed|15% increased monster attack/cast speed|Connected rooms +1:G
 Jeweller's Workshop|Jewellery Forge|Glittering Halls:Y
 3 Jeweller’s boxes|5 Jeweller’s boxes|7 Jeweller’s boxes:Y
 Splinter Research Lab|Breach Containment Chamber|House of the Others:Y
 2 Breach Hands|1 Breach| 3 Breaches:Y
 Strongbox Chamber|Hall of Locks|Court of Sealed Death:Y
 2 Strongboxes|4 Strongboxes|6 Strongboxes:Y
-Royal Meeting Room|Hall of Lords|Throne of Atziri:Y
-10% increased monster attack/cast speed|15% increased monster attack/cast speed|Atziri, Queen of the Vaal:Y
+Royal Meeting Room:Y|Hall of Lords:Y|Throne of Atziri:Y
+10% increased monster attack/cast speed:Y|15% increased monster attack/cast speed:Y|Atziri, Queen of the Vaal:Y
 Tempest Generator|Hurricane Engine|Storm of Corruption
 Enlarging Tempest or Shrinking Tempest|Stinging Tempest, Restorative Tempest or status immunity Tempest|Corrupting Tempest or Radiating Tempest
-Torment Cells|Torture Cages|Sadist's Den
-3 Tormented Spirits|5 Tormented Spirits|7 Tormented Spirits
+Torment Cells|Torture Cages:Y|Sadist's Den:Y
+3 Tormented Spirits|5 Tormented Spirits:Y|7 Tormented Spirits:Y
 Explosives Room|Demolition Lab|Shrine of Unmaking
 1 Flashpowder Keg|2 Flashpowder Kegs|3 Flashpowder Kegs
 Armourer's Workshop|Armoury|Chamber of Iron
