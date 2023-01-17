@@ -33,24 +33,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ExileCore">
-      <HintPath>..\..\..\..\PoeHelper\ExileCore.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>G:\1.Path stuff\PoEHelper-TehCheat\ExileCore.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\PoEHelper\SharpDX.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>G:\1.Path stuff\PoEHelper-TehCheat\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Desktop">
-      <HintPath>..\..\..\..\PoEHelper\SharpDX.Desktop.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>G:\1.Path stuff\PoEHelper-TehCheat\SharpDX.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Mathematics">
-      <HintPath>..\..\..\..\PoEHelper\SharpDX.Mathematics.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>G:\1.Path stuff\PoEHelper-TehCheat\SharpDX.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\1.Path stuff\PoEHelper-TehCheat\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

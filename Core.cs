@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using ExileCore;
 using ExileCore.PoEMemory.Elements;
@@ -120,7 +119,9 @@ namespace IncursionHelpers
                 roomType1 = roomType1.Substring(0, roomType1.Length - 2);
             }
             else
+            {
                 roomType1 = $"Error: Cannot parse room type from: {roomType1}";
+            }
 
             if (splitIndex2 != -1)
             {
@@ -128,7 +129,9 @@ namespace IncursionHelpers
                 roomType2 = roomType2.Substring(0, roomType2.Length - 2);
             }
             else
+            {
                 roomType2 = $"Error: Cannot parse room type from: {roomType2}";
+            }
         }
 
         #region Config loader
@@ -145,7 +148,9 @@ namespace IncursionHelpers
                 if (!parse)
                 {
                     if (line.StartsWith("===ParseStartLine:"))
+                    {
                         parse = true;
+                    }
                 }
                 else
                 {
@@ -176,15 +181,21 @@ namespace IncursionHelpers
                         var color = GetColor(ref roomOutcome);
 
                         if (roomName[roomName.Length - 2] == ':') //colors in room name was useless
+                        {
                             roomName = roomName.Substring(0, roomName.Length - 2);
+                        }
 
                         var roomValue = new Room(roomName, roomOutcome, color, allRooms);
                         allRooms.Add(roomValue);
 
                         if (!_rooms.ContainsKey(roomName))
+                        {
                             _rooms.Add(roomName, roomValue);
+                        }
                         else
+                        {
                             LogError($"Incursion helpers: Room {roomName} is already registered! Line: {j}", 5);
+                        }
                     }
 
                     i++;
